@@ -1,0 +1,93 @@
+
+@import url(https://fonts.googleapis.com/css?family=Raleway|Varela+Round|Coda);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+
+body {
+  padding: 1%;
+}
+
+
+.userprofile {
+  margin: auto;
+  margin-left: 0em;
+  width: 25em; 
+  height:0px;
+  background: rgb(180, 180, 180);
+  border-radius: 2em;
+        display: flex;
+        align-items: centre;
+        justify-content: left;
+        flex-direction: row;
+        z-index: 99;
+}
+
+.userprofile  .username {
+  margin: auto;
+  margin-top: 18px;
+  margin-left: 7px;
+
+  color: #000000;
+  font-size: 1.53em;
+  font-family: "Coda", sans-serif;
+  font-weight: bold;
+}
+
+.userprofile > img.avatar {
+  padding: .5em;
+  height: 3em;
+  width:3em;
+  border-radius: 18em;
+}
+.userprofile > img.log {
+  padding: .5em;
+  height: 3em;
+  width:3em;
+  cursor: pointer;
+}
+
+@media (max-width:499px){
+  .userprofile  .username {
+    display: none;
+
+  }
+  .userprofile > img.avatar{
+    margin:left;
+    height: 1.5em;
+    width: 1.5em;
+  }
+  .userprofile > img.log{
+    margin:left;
+    height: 1.5em;
+    width: 1.5em;
+  }
+}
+
+/* waste code - just for reference - delete all the below code */>
+
+.userprofile button {
+  width: 140px;
+  height: 45px;
+  margin-top: 25px;
+  margin-right: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.userprofile button:hover {
+  background-color: rgb(235, 44, 19);
+  box-shadow: 0px 15px 20px rgba(235, 44, 19, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}

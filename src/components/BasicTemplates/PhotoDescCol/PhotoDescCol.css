@@ -1,0 +1,56 @@
+.flexRowcontainer{
+    width: 100%;
+    min-height: 300px;
+    height: auto;
+    padding: 5em;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-flow: row;
+    flex-basis: 20% 10% 70%;
+    border:1px solid;
+}
+.flexRowcontainer bigitem {
+    /* This will be twice as */
+    /* big as the small item. */
+        justify-content: center;
+        background-color: aqua;
+ }
+ 
+.flexColcontainer img{
+    max-width: 110%;
+    opacity: 1;
+    box-shadow: 10px 10px 10px -4px rgba(0,0,0,0.5);
+    vertical-align: middle;
+    display: inline-block;
+    height: auto;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 10px;
+}     
+.flexColcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    {/* 
+        border : 1px solid;
+     */}    ;
+    padding: 10px;
+
+ }
+
+.flexColcontainer h2{
+    font-family: "Old Standard TT", Sans-serif;
+    font-size: 31px;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 3px;
+}
+
+.flexColcontainer h3{
+font-family: "Old Standard TT", Sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1em;
+}
